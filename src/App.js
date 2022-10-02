@@ -3,6 +3,10 @@ import Arrived from "./components/Arrived";
 import Browse from "./components/Browse";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Clients from "./components/Clients";
+import AsideMenu from "./components/AsideMenu";
+import Footer from "./components/Footer";
+import Modal from "./components/Modal";
 
 function App() {
   return (
@@ -11,6 +15,10 @@ function App() {
       <Hero />
       <Browse />
       <Arrived />
+      <Clients />
+      <AsideMenu />
+      <Footer />
+      <Modal />
     </>
   );
 }
